@@ -17,7 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 h1.title{
     font-weight: 600;
     font-size: 1.8rem !important;
-    color: #6e7e84;
+    color: #96b9c1;
+}
+
+div.level-nav{
+    background: #5c5c6a url(./images/background.jpg) no-repeat scroll 50% 50%;
+    
 }
 
 .box{
@@ -26,6 +31,10 @@ h1.title{
 .box a{
     color: #c56c76;
     text-decoration: underline;
+}
+
+.gap{
+    margin-left: 30px;
 }
 
 button.btn-site{
@@ -82,4 +91,36 @@ img.is-circular{
 footer a{
     color: #c56c76;
     font-weight: 500;
+}
+
+footer a:hover{
+    color: #c56c76;
+}
+
+@media screen and (min-width: 480px) {
+
+    div.content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .speaker-headlines h2{
+        text-align: left !important;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+
+    .gap{
+        margin-right: 15px;
+    }
+
+    button.btn-site{
+        width: 100%;
+    }
+
+    footer{
+        padding: 0px 15px 0px 15px;
+    }
+
 }
